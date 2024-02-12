@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+# import requests
+# from pprint import pprint
 
 
 def exercise_1():
@@ -38,6 +40,10 @@ def exercise_4():
 
 
 def exercise_5():
+    # response = requests.get(
+    # 'https://cs.mipt.ru/python/lessons/lab1.html#toc-entry-9'
+    # )
+    # pprint(response.text)
     print('Задание располодежено по ссылке:')
     print('https://cs.mipt.ru/python/lessons/lab1.html#toc-entry-9')
 
